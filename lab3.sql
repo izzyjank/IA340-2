@@ -32,3 +32,4 @@ values('c4','facebook','r1','p3@jmu.edu')
 --Question 1: you must insert into the professor table first because the course table uses a foreign key from the professors email for the course
 	
 --Q2.6
+
