@@ -25,6 +25,10 @@ values('s1@jmu.edu','c1'),
 --Q2.5 
 insert into professor(p_email,p_name,office)
 values('p3@jmu.edu','p3','o3')
+--
+insert into course(c_number,c_name,room,p_email)
+values('c4','facebook','r1','p3@jmu.edu')
 
 --Question 1: you must insert into the professor table first because the course table uses a foreign key from the professors email for the course
 	
+--Q2.6
