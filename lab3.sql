@@ -32,5 +32,12 @@ values('c4','facebook','r1','p3@jmu.edu')
 --Question 1: you must insert into the professor table first because the course table uses a foreign key from the professors email for the course
 	
 --Q2.6
+update course
+set p_email = 'p3@jmu.edu'
+where p_email = 'p1@jmu.edu' ;
 
+delete from professor
+where p_email = 'p1@jmu.edu'
+-- 
+	
 --Question 2: must change course table first because p1 cannot be deleted before done teaching.
