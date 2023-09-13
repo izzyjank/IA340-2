@@ -33,3 +33,4 @@ values('c4','facebook','r1','p3@jmu.edu')
 	
 --Q2.6
 
+--Question 2: must change course table first because p1 cannot be deleted before done teaching.
