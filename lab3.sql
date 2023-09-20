@@ -41,3 +41,8 @@ where p_email = 'p1@jmu.edu'
 -- 
 	
 --Question 2: must change course table first because p1 cannot be deleted before done teaching.
+
+--2.7
+select * from enroll
+
+
