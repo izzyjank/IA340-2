@@ -67,3 +67,11 @@ inner join course
 on professor.p_email = course.p_email
 
 --2.10
+select professor.p_name,
+	count(course.c_name) as num_course
+from professor
+inner join course
+on professor.p_email = course.p_email
+group by professor.p_name
+order by num_course desc
+limit 1
