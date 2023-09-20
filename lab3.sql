@@ -52,3 +52,10 @@ group by c_number
 order by num_student desc
 limit 1
 
+--2.8
+select c_number, count(*) as num_student
+from enroll
+group by c_number
+order by num_student desc
+limit 1
+
